@@ -14,48 +14,47 @@ const categories = [
 const menuItems = [
  
   // Burgers
-  { id: 1, name: 'Beef Burger', category: 'burgers', price: '12.00', desc: 'Premium beef patty, lettuce, tomato, onion, cheese, and our signature sauce.', img: 'https://tasteofsofra.com.au/wp-content/uploads/2025/08/Burgers-1-1536x860.jpg' },
-  { id: 3, name: 'Chicken Burger', category: 'burgers', price: '12.00', desc: 'House-marinated chicken breast, lettuce, cheese, and mayo.', img: 'https://tasteofsofra.com.au/wp-content/uploads/2025/08/Burgers-1-1536x860.jpg' },
+  { id: 1, name: 'Beef Burger', category: 'burgers', price: '12.00', desc: 'Premium beef patty, lettuce, tomato, onion, cheese, and our signature sauce.', img: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60' },
+  { id: 3, name: 'Chicken Burger', category: 'burgers', price: '12.00', desc: 'House-marinated chicken breast, lettuce, cheese, and mayo.', img: 'https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60' },
 
  
   // Kebabs & Rolls
-  { id: 10, name: 'Beef Kebab Roll', category: 'kebabs', price: '14.00', desc: 'Beef with lettuce, tomato, red onion, and choice of up to 3 sauces.', img: 'https://tasteofsofra.com.au/wp-content/uploads/2025/08/Kebabs-1-1536x860.jpg' },
-  { id: 11, name: 'Chicken Kebab Roll', category: 'kebabs', price: '14.00', desc: 'Chicken with lettuce, tomato, red onion, and choice of sauces.', img: 'https://tasteofsofra.com.au/wp-content/uploads/2025/08/Kebabs-1-1536x860.jpg' },
-  { id: 12, name: 'Mixed Kebab Roll', category: 'kebabs', price: '14.00', desc: 'A combination of beef and chicken with salad and sauces.', img: 'https://tasteofsofra.com.au/wp-content/uploads/2025/08/Kebabs-1-1536x860.jpg' },
-  { id: 13, name: 'Kebab Plate', category: 'kebabs', price: '23.00', desc: 'Choice of meat served with rice, salad (cabbage, tabouli, ezme), and bread.', img: 'https://tasteofsofra.com.au/wp-content/uploads/2025/08/Kebabs-1-1536x860.jpg' },
+  { id: 10, name: 'Beef Kebab Roll', category: 'kebabs', price: '14.00', desc: 'Beef with lettuce, tomato, red onion, and choice of up to 3 sauces.', img: 'https://cdn-mamafatma.b-cdn.net/wp-content/uploads/2023/10/3-27.jpg' },
+  { id: 11, name: 'Chicken Kebab Roll', category: 'kebabs', price: '14.00', desc: 'Chicken with lettuce, tomato, red onion, and choice of sauces.', img: 'https://yummyrecipes.uk/fit-chicken-kebab-wrap/Fit_Chicken_Kebab_-_10.jpg' },
+  { id: 12, name: 'Mixed Kebab Roll', category: 'kebabs', price: '14.00', desc: 'A combination of beef and chicken with salad and sauces.', img: 'https://kebabandpizzanerang.com.au/wp-content/uploads/2018/06/lamb-and-beef-kebab-1.jpg' },
+  { id: 13, name: 'Kebab Plate', category: 'kebabs', price: '23.00', desc: 'Choice of meat served with rice, salad (cabbage, tabouli, ezme), and bread.', img: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60' },
 
   // Pide
-  { id: 15, name: 'Cheese Lovers', category: 'pide', price: '18.00', desc: 'Traditional Turkish flatbread with mozzarella and feta.', img: 'https://tasteofsofra.com.au/wp-content/uploads/2025/08/Gozleme-Pide-1-1536x860.jpg' },
-  { id: 16, name: 'Spinach & Cheese Pide', category: 'pide', price: '18.00', desc: 'Traditional spinach and feta filling.', img: 'https://tasteofsofra.com.au/wp-content/uploads/2025/08/Gozleme-Pide-1-1536x860.jpg' },
-  { id: 18, name: 'Sujuk & Cheese Pide', category: 'pide', price: '18.00', desc: 'Turkish garlic sausage and cheese.', img: 'https://tasteofsofra.com.au/wp-content/uploads/2025/08/Gozleme-Pide-1-1536x860.jpg' },
-  { id: 19, name: 'Kiymali Pide (Minced Meat)', category: 'pide', price: '18.00', desc: 'Spiced minced meat with onions and tomatoes.', img: 'https://tasteofsofra.com.au/wp-content/uploads/2025/08/Gozleme-Pide-1-1536x860.jpg' },
-  { id: 21, name: 'Chicken Pide', category: 'pide', price: '18.00', desc: 'Marinated chicken and cheese.', img: 'https://tasteofsofra.com.au/wp-content/uploads/2025/08/Gozleme-Pide-1-1536x860.jpg' },
-  { id: 22, name: 'Vegetarian Pide', category: 'pide', price: '18.00', desc: 'Mushroom, capsicum, olives, onion, and tomato.', img: 'https://tasteofsofra.com.au/wp-content/uploads/2025/08/Gozleme-Pide-1-1536x860.jpg' },
-  { id: 23, name: 'Sofra Special Pide', category: 'pide', price: '18.00', desc: 'A mix of everything: meat, veggies, and cheese.', img: 'https://tasteofsofra.com.au/wp-content/uploads/2025/08/Gozleme-Pide-1-1536x860.jpg' },
- 
+  { id: 15, name: 'Cheese Lovers', category: 'pide', price: '18.00', desc: 'Traditional Turkish flatbread with mozzarella and feta.', img: 'https://media.istockphoto.com/id/1155362263/photo/traditional-turkish-cuisine-turkish-pizza-pita-with-a-different-stuffing-meat-cheese-slices.jpg?s=612x612&w=0&k=20&c=4pNeTu9kCeJ_VQ62wJDFBPczHujJEDxnfBe0ry99KDs=' },
+  { id: 16, name: 'Spinach & Cheese Pide', category: 'pide', price: '18.00', desc: 'Traditional spinach and feta filling.', img: 'https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc9367b61-00e2-455f-8b16-4184e69a00bb.tif' },
+  { id: 18, name: 'Sujuk & Cheese Pide', category: 'pide', price: '18.00', desc: 'Turkish garlic sausage and cheese.', img: 'https://www.littlespicejar.com/wp-content/uploads/2024/03/Turkish-Pide-Turkish-Flatbread-9-540x720.jpg' },
+  { id: 19, name: 'Kiymali Pide (Minced Meat)', category: 'pide', price: '18.00', desc: 'Spiced minced meat with onions and tomatoes.', img: 'https://i.pinimg.com/736x/c8/65/d0/c865d029b4df63f37b1eaf53b527b864.jpg' },
+  { id: 21, name: 'Chicken Pide', category: 'pide', price: '18.00', desc: 'Marinated chicken and cheese.', img: 'https://img.freepik.com/premium-photo/turkish-pide-dish-with-three-different-fillings-lamb-beef-cheddar-cheese-black-table-close-up-selective-focus_207126-5007.jpg?semt=ais_hybrid&w=740&q=80' },
+  { id: 22, name: 'Vegetarian Pide', category: 'pide', price: '18.00', desc: 'Mushroom, capsicum, olives, onion, and tomato.', img: 'https://media.istockphoto.com/id/1918961876/photo/traditional-turkish-meat-pide-on-wooden.jpg?s=612x612&w=0&k=20&c=aPejZlRCE24LpVMeYjRqcAAzxYsV96-licin1eJBMnU=' },
+  
   // Gozleme
-  { id: 24, name: 'Spinach Gozleme', category: 'gozleme', price: '14.00', desc: 'Grilled spinach with mushrooms, feta, and mozzarella.', img: 'https://tasteofsofra.com.au/wp-content/uploads/2025/08/Gozleme-Pide-1-1536x860.jpg' },
-  { id: 28, name: 'Chicken Gozleme', category: 'gozleme', price: '14.00', desc: 'Grilled chicken with feta, mozzarella, and mushrooms.', img: 'https://tasteofsofra.com.au/wp-content/uploads/2025/08/Gozleme-Pide-1-1536x860.jpg' },
-  { id: 29, name: 'Sucuk Gozleme', category: 'gozleme', price: '14.00', desc: 'Turkish garlic sausage with egg and cheese.', img: 'https://tasteofsofra.com.au/wp-content/uploads/2025/08/Gozleme-Pide-1-1536x860.jpg' },
-  { id: 30, name: 'Peri Peri Chicken Gozleme', category: 'gozleme', price: '14.00', desc: 'Grilled chicken with peri peri sauce and cheese.', img: 'https://tasteofsofra.com.au/wp-content/uploads/2025/08/Gozleme-Pide-1-1536x860.jpg' },
-  { id: 31, name: 'Just Cheese Gozleme', category: 'gozleme', price: '14.00', desc: 'A signature mix of meat and vegetables.', img: 'https://tasteofsofra.com.au/wp-content/uploads/2025/08/Gozleme-Pide-1-1536x860.jpg' },
+  { id: 24, name: 'Spinach Gozleme', category: 'gozleme', price: '14.00', desc: 'Grilled spinach with mushrooms, feta, and mozzarella.', img: 'https://t4.ftcdn.net/jpg/10/17/01/67/360_F_1017016777_S7OnhrvDKzVEyl6SS0iyNsbISGKDSqWf.jpg' },
+  { id: 28, name: 'Chicken Gozleme', category: 'gozleme', price: '14.00', desc: 'Grilled chicken with feta, mozzarella, and mushrooms.', img: 'https://static.vecteezy.com/system/resources/thumbnails/069/067/897/small/turkish-gozleme-flatbread-free-photo.jpg' },
+  { id: 29, name: 'Sucuk Gozleme', category: 'gozleme', price: '14.00', desc: 'Turkish garlic sausage with egg and cheese.', img: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidj1dl_j1_1kd20DeZO5jfj77ATMTyKUuaSg2A7ZFhe7Pow4aHUwFIvv75zW5SoROIIUjQJ5OCWok5IIen5DNeOD7CNxr5ghbHJJc7zY7-RxVgCStqisN-Y03p1t_KBrW8JjG42nfoRIJp/s640/GOZLEME2editresize.jpg' },
+  { id: 30, name: 'Peri Peri Chicken Gozleme', category: 'gozleme', price: '14.00', desc: 'Grilled chicken with peri peri sauce and cheese.', img: 'https://cookingwithayeh.com/wp-content/uploads/2025/01/Gozleme-Easy-Yogurt-Dough-7.jpg' },
+  { id: 31, name: 'Just Cheese Gozleme', category: 'gozleme', price: '14.00', desc: 'A signature mix of meat and vegetables.', img: 'https://images.unsplash.com/photo-1588315029754-2dd089d39a1a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60' },
 
   // Pizza
-  { id: 32, name: 'BBQ Chicken Pizza', category: 'pizza', price: '18.00', desc: 'Chicken, BBQ sauce, and cheese.', img: 'https://tasteofsofra.com.au/wp-content/uploads/2025/08/Pizzas-1-1536x860.jpg' },
-  { id: 33, name: 'Peri Peri Chicken Pizza', category: 'pizza', price: '18.00', desc: 'Chicken with peri peri sauce and cheese.', img: 'https://tasteofsofra.com.au/wp-content/uploads/2025/08/Pizzas-1-1536x860.jpg' },
-  { id: 34, name: 'Meat Lovers Pizza', category: 'pizza', price: '18.00', desc: 'Loaded with chicken, beef, and BBQ sauce.', img: 'https://tasteofsofra.com.au/wp-content/uploads/2025/08/Pizzas-1-1536x860.jpg' },
-  { id: 35, name: 'Sofra Special Pizza', category: 'pizza', price: '18.00', desc: 'A signature mix of toppings including Turkish sausage (sucuk).', img: 'https://tasteofsofra.com.au/wp-content/uploads/2025/08/Pizzas-1-1536x860.jpg' },
-  { id: 36, name: 'Vegetarian Pizza', category: 'pizza', price: '18.00', desc: 'Mushroom, capsicum, olives, onion, and tomato.', img: 'https://tasteofsofra.com.au/wp-content/uploads/2025/08/Pizzas-1-1536x860.jpg' },
+  { id: 32, name: 'BBQ Chicken Pizza', category: 'pizza', price: '18.00', desc: 'Chicken, BBQ sauce, and cheese.', img: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60' },
+  { id: 33, name: 'Peri Peri Chicken Pizza', category: 'pizza', price: '18.00', desc: 'Chicken with peri peri sauce and cheese.', img: 'https://images.unsplash.com/photo-1594007654729-407eedc4be65?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60' },
+  { id: 34, name: 'Meat Lovers Pizza', category: 'pizza', price: '18.00', desc: 'Loaded with chicken, beef, and BBQ sauce.', img: 'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60' },
+  { id: 35, name: 'Sofra Special Pizza', category: 'pizza', price: '18.00', desc: 'A signature mix of toppings including Turkish sausage (sucuk).', img: 'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60' },
+  { id: 36, name: 'Vegetarian Pizza', category: 'pizza', price: '18.00', desc: 'Mushroom, capsicum, olives, onion, and tomato.', img: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60' },
 
   // SeaFood
-  { id: 37, name: 'Fish & Chips', category: 'seafood', price: '13.00', desc: 'Battered Fish with Lemon Wedge & Tartare Sauce', img: 'https://images.squarespace-cdn.com/content/v1/59f2a68fd0e62898cc350a8c/1704801958624-IEAH2ZQYOE2A9QSXUJ4C/411C2374.jpg?format=1000w' },
-  { id: 38, name: 'Fish & Chips with Salad', category: 'seafood', price: '18.00', desc: 'Battered Fish with Lemon Wedge & Tartare Sauce with Salad', img: 'https://images.squarespace-cdn.com/content/v1/59f2a68fd0e62898cc350a8c/1704801958624-IEAH2ZQYOE2A9QSXUJ4C/411C2374.jpg?format=1000w' },
+  { id: 37, name: 'Fish & Chips', category: 'seafood', price: '13.00', desc: 'Battered Fish with Lemon Wedge & Tartare Sauce', img: 'https://recipesblob.oetker.com.my/assets/7d0d0f4478054d1e8daba3a0c7e96ba6/1272x764/crispyfry-fish-chips.webp' },
+  { id: 38, name: 'Fish & Chips with Salad', category: 'seafood', price: '18.00', desc: 'Battered Fish with Lemon Wedge & Tartare Sauce with Salad', img: 'https://media1.agfg.com.au/images/content/4017.jpg' },
 
   // Sides & Snacks
-  { id: 39, name: 'Halal Snack Pack (HSP)', category: 'sides', price: '22.00', desc: 'Beef, chicken, or mixed meat over hot chips with choice of sauces.', img: 'https://tasteofsofra.com.au/wp-content/uploads/2025/08/Kebabs-1-1536x860.jpg' },
-  { id: 40, name: 'Heart Attack in a Box', category: 'sides', price: '35.00', desc: 'A combo featuring a burger, snack pack, and a drink.', img: 'https://tasteofsofra.com.au/wp-content/uploads/2025/08/Burgers-1-1536x860.jpg' },
-  { id: 41, name: 'Gym Pack', category: 'sides', price: '25.00', desc: 'High-protein option with chicken/beef fillets, rice, and salad.', img: 'https://tasteofsofra.com.au/wp-content/uploads/2025/08/1000015519.jpg' },
-  { id: 42, name: 'Trio of Dips', category: 'sides', price: '28.00', desc: 'A curated selection of our signature hummus, babaganoush, and beetroot dip, served with warm stone-baked bread.', img: 'https://images.squarespace-cdn.com/content/v1/59f2a68fd0e62898cc350a8c/1704804693966-WASDDIDJSM0DUDFVGP7C/Trio+of+Dips+2.jpg?format=500w' },
+  { id: 39, name: 'Halal Snack Pack (HSP)', category: 'sides', price: '22.00', desc: 'Beef, chicken, or mixed meat over hot chips with choice of sauces.', img: 'https://images.unsplash.com/photo-1627907222043-9c1a4d0f6b63?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60' },
+  { id: 40, name: 'Heart Attack in a Box', category: 'sides', price: '35.00', desc: 'A combo featuring a burger, snack pack, and a drink.', img: 'https://images.unsplash.com/photo-1561758033-d89a9ad46330?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60' },
+  { id: 41, name: 'Gym Pack', category: 'sides', price: '25.00', desc: 'High-protein option with chicken/beef fillets, rice, and salad.', img: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60' },
+  { id: 42, name: 'Trio of Dips', category: 'sides', price: '28.00', desc: 'A curated selection of our signature hummus, babaganoush, and beetroot dip, served with warm stone-baked bread.', img: 'https://images.unsplash.com/photo-1541518763669-27fef04b14ea?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=60' },
 
 ];
 
